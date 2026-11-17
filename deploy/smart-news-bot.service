@@ -1,0 +1,22 @@
+[Unit]
+Description=Smart News Telegram Bot (اخبار هوشمند)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=smartnews
+Group=smartnews
+WorkingDirectory=/opt/smart-news-bot
+EnvironmentFile=/opt/smart-news-bot/.env
+ExecStart=/opt/smart-news-bot/.venv/bin/python -m bot
+Restart=always
+RestartSec=5
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=full
+ProtectHome=true
+ReadWritePaths=/opt/smart-news-bot/data
+
+[Install]
+WantedBy=multi-user.target

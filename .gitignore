@@ -1,0 +1,38 @@
+# Secrets & local config
+.env
+.env.*
+!.env.example
+
+# Database & runtime data
+data/
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+smart-news-bot.zip
+
+# Node / Web Admin
+node_modules/
+web-admin/node_modules/
+web-admin/.vite/
+

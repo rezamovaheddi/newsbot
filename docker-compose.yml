@@ -1,0 +1,9 @@
+services:
+  smart-news-bot:
+    build: .
+    container_name: smart-news-bot
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data

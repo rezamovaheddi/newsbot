@@ -1,0 +1,53 @@
+{
+  "categories": [
+    {
+      "id": "ai",
+      "title": "هوش مصنوعی",
+      "emoji": "🤖",
+      "feeds": [
+        {
+          "name": "دیجیاتو — هوش مصنوعی",
+          "url": "https://digiato.com/topic/tech/artificial-intelligence/feed"
+        },
+        {
+          "name": "هوشیو (مرجع هوش مصنوعی)",
+          "url": "https://hooshio.com/feed/"
+        },
+        {
+          "name": "ایسنا — هوش مصنوعی",
+          "url": "https://www.isna.ir/rss/tp/535"
+        },
+        {
+          "name": "زومیت — اخبار هوش مصنوعی",
+          "url": "https://www.zoomit.ir/feed/",
+          "keywords_any": [
+            "هوش مصنوعی",
+            "هوش مصنوعی مولد",
+            "یادگیری ماشین",
+            "یادگیری عمیق",
+            "چت جی پی تی",
+            "اوپن ای آی",
+            "chatgpt",
+            "openai",
+            "gemini",
+            "claude",
+            "copilot",
+            "deepseek",
+            "grok",
+            "midjourney",
+            "llm",
+            "gpt"
+          ]
+        },
+        {
+          "name": "یک آی‌تی‌نویس — هوش مصنوعی",
+          "url": "https://www.1itnevis.com/feeds/posts/default/-/AI?alt=rss"
+        },
+        {
+          "name": "بیگ بنگ — هوش مصنوعی",
+          "url": "https://bigbangpage.com/tag/%D9%87%D9%88%D8%B4-%D9%85%D8%B5%D9%86%D9%88%D8%B9%DB%8C/feed"
+        }
+      ]
+    }
+  ]
+}
